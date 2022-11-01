@@ -19,7 +19,6 @@ const providerConfig = {
   domain: config.domain,
   clientId: config.clientId,
   redirectUri: window.location.origin,
-  console.log(window.location.origin),
   onRedirectCallback,
 };
 
