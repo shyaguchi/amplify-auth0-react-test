@@ -20,7 +20,7 @@ const providerConfig = {
   clientId: config.clientId,
   redirectUri: "https://master.d3ft5i8kercbm7.amplifyapp.com",
   //window.location.origin,
-  onRedirectCallback,
+  //onRedirectCallback,
 };
 
 ReactDOM.render(
