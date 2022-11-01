@@ -18,7 +18,8 @@ const config = getConfig();
 const providerConfig = {
   domain: config.domain,
   clientId: config.clientId,
-  redirectUri: window.location.origin,
+  redirectUri: "https://master.d3ft5i8kercbm7.amplifyapp.com",
+  //window.location.origin,
   onRedirectCallback,
 };
 
